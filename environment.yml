@@ -1,0 +1,19 @@
+
+name: quantlab
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - jupyterlab
+  - ipykernel
+  - pytest
+  - pip
+  - pip:
+      - yfinance
